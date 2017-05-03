@@ -1,0 +1,135 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@sugarcrm/jsdoc-baseline@0.0.3",
+        "scope": "@sugarcrm",
+        "escapedName": "@sugarcrm%2fjsdoc-baseline",
+        "name": "@sugarcrm/jsdoc-baseline",
+        "rawSpec": "0.0.3",
+        "spec": "0.0.3",
+        "type": "version"
+      },
+      "/Users/rhogg/Sites/sugar/latest/sugarcrm/sidecar"
+    ]
+  ],
+  "_from": "@sugarcrm/jsdoc-baseline@0.0.3",
+  "_id": "@sugarcrm/jsdoc-baseline@0.0.3",
+  "_inCache": true,
+  "_location": "/@sugarcrm/jsdoc-baseline",
+  "_nodeVersion": "6.9.2",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/jsdoc-baseline-0.0.3.tgz_1488361933230_0.5077704375144094"
+  },
+  "_npmUser": {
+    "name": "sugarcrm",
+    "email": "typhoon-devs@sugarcrm.com"
+  },
+  "_npmVersion": "3.10.9",
+  "_phantomChildren": {
+    "amdefine": "1.0.1",
+    "uglify-js": "2.6.4",
+    "wordwrap": "0.0.3"
+  },
+  "_requested": {
+    "raw": "@sugarcrm/jsdoc-baseline@0.0.3",
+    "scope": "@sugarcrm",
+    "escapedName": "@sugarcrm%2fjsdoc-baseline",
+    "name": "@sugarcrm/jsdoc-baseline",
+    "rawSpec": "0.0.3",
+    "spec": "0.0.3",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://cache.sugardev.team/repository/npm/@sugarcrm/jsdoc-baseline/-/jsdoc-baseline-0.0.3.tgz",
+  "_shasum": "c6a9872af40ca5d417c7a3246e66ef396cc019c3",
+  "_shrinkwrap": null,
+  "_spec": "@sugarcrm/jsdoc-baseline@0.0.3",
+  "_where": "/Users/rhogg/Sites/sugar/latest/sugarcrm/sidecar",
+  "author": {
+    "name": "Jeff Williams",
+    "email": "jeffrey.l.williams@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sugarcrm/jsdoc-baseline/issues"
+  },
+  "contributors": [
+    {
+      "name": "Alexandrine Boissière",
+      "email": "theasta@gmail.com"
+    },
+    {
+      "name": "Google Inc."
+    },
+    {
+      "name": "Jonathan Kingston",
+      "email": "http://jotter.jonathankingston.co.uk/"
+    }
+  ],
+  "dependencies": {
+    "deep-extend": "~0.4.0",
+    "escape-string-regexp": "~1.0.3",
+    "handlebars": "~4.0.5",
+    "handlebars-layouts": "~3.1.3",
+    "intl": "~1.0.1",
+    "intl-messageformat": "~1.2.0",
+    "js-beautify": "~1.5.10",
+    "js-yaml": "~3.4.6",
+    "spdx-license-list": "~2.1.0",
+    "underscore-contrib": "~0.3.0"
+  },
+  "description": "A basic template for JSDoc 3.",
+  "devDependencies": {
+    "expectations": "~0.5.2",
+    "fake-fs": "~0.5.0",
+    "gulp": "~3.9.0",
+    "gulp-csso": "~1.0.1",
+    "gulp-eslint": "~1.1.1",
+    "gulp-istanbul": "~0.10.3",
+    "gulp-less": "~3.0.5",
+    "gulp-mocha": "~2.2.0",
+    "gulp-uglify": "~1.5.1",
+    "jsdoc": "~3.4.0",
+    "requizzle": "~0.2.1",
+    "simple-mock": "~0.5.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dist": {
+    "shasum": "c6a9872af40ca5d417c7a3246e66ef396cc019c3",
+    "tarball": "https://cache.sugardev.team/repository/npm/@sugarcrm/jsdoc-baseline/-/jsdoc-baseline-0.0.3.tgz"
+  },
+  "gitHead": "ce52100bab861b3e5e15ccfe7cdc9cf332c35533",
+  "homepage": "https://github.com/sugarcrm/jsdoc-baseline",
+  "keywords": [
+    "jsdoc",
+    "api",
+    "docs",
+    "documentation",
+    "template"
+  ],
+  "license": "Apache-2.0",
+  "main": "publish.js",
+  "maintainers": [
+    {
+      "name": "sugarcrm",
+      "email": "typhoon-devs@sugarcrm.com"
+    }
+  ],
+  "name": "@sugarcrm/jsdoc-baseline",
+  "optionalDependencies": {},
+  "readme": "# Baseline\n\n[![Build Status](https://img.shields.io/travis/hegemonic/jsdoc-baseline.svg)](http://travis-ci.org/hegemonic/jsdoc-baseline)\n\nAn extensible template for [JSDoc 3](https://github.com/jsdoc3/jsdoc).\n\n**This is a preview version of the Baseline template.** Baseline is still under active development.\nEverything in the template is subject to change.\n\n\n## What is Baseline?\n\nBaseline is a new HTML template for [JSDoc 3][jsdoc]. It offers several benefits:\n\n+ **Extensible from the ground up.** You can use extensions to customize your documentation's\ncontent and appearance without changing Baseline itself. In addition, you can localize the headings\nand other text that are added by the template. **Note:** Customization options are limited in this\npreview version. More options will be available soon.\n+ **Easy to navigate.** An expandable table of contents helps users find what they're looking for.\nAlso, a summary at the top of each page shows users what's documented on that page.\n+ **Modern template syntax.** Baseline uses [Handlebars][handlebars], a powerful JavaScript template\nengine, to define the template layout. Handlebars makes it possible to define new tags and helpers\nthat you can use in your customizations to Baseline.\n\n[jsdoc]: https://github.com/jsdoc3/jsdoc\n[handlebars]: http://handlebarsjs.com/\n\n\n## Installing Baseline\n\n1. Install [JSDoc](https://github.com/jsdoc3/jsdoc).\n\n    **Note**: Baseline currently requires JSDoc 3.4.0 or later.\n\n    To install JSDoc globally (may require `sudo`):\n\n        npm install -g jsdoc\n\n    To add JSDoc to your Node.js project as a development dependency:\n\n        npm install --save-dev jsdoc\n\n2. Add the Baseline template to your Node.js project as a development dependency:\n\n        npm install --save-dev @sugarcrm/jsdoc-baseline\n\n\n## Configuring and Using Baseline\n\nTo use the Baseline template with its default settings, simply run JSDoc with the `--template`\n(or `-t`) command-line option:\n\n    jsdoc --template <path/to/baseline> <path/to/js-files>\n\nTo use the Baseline template with customized settings:\n\n1. Copy `baseline-config.json.EXAMPLE` to a new file (for example, `baseline-config.json`).\n2. Modify the configuration file as needed. See `baseline-config.json.EXAMPLE` for information about\nthe supported options. You can use comments in the configuration file.\n3. Update your JSDoc `conf.json` file to include a `templates.baseline` property. This property\nmust contain the path to your Baseline configuration file.\n4. Run JSDoc as shown above, using the `--configure` (or `-c`) option to tell JSDoc where to find\nyour `conf.json` file:\n\n        jsdoc --configure <path/to/conf.json> --template <path/to/baseline> <path/to/js-files>\n\n**Note**: Future versions of Baseline will provide additional configuration settings, including\nsettings for overriding and modifying portions of the template.\n\n\n## Legal stuff\n\nCopyright 2014-2015 Google Inc. Licensed under the Apache License, Version 2.0.\n\nSee [LICENSE.md][license] for more information.\n\n[license]: LICENSE.md\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sugarcrm/jsdoc-baseline.git"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "version": "0.0.3"
+}
